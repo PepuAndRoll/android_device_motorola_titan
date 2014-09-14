@@ -21,6 +21,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),peregrine)
+ifeq ($(TARGET_DEVICE),titan)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

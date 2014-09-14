@@ -16,12 +16,7 @@
 # inherit from common msm8226-common
 -include device/motorola/msm8226-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/motorola/peregrine
-
-# Vendor Unification Init
-TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/motorola/peregrine/init/init_peregrine.c
+LOCAL_PATH := device/motorola/titan
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
