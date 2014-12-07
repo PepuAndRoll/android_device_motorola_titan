@@ -20,7 +20,7 @@ LOCAL_PATH := device/motorola/titan
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
-TARGET_KERNEL_CONFIG := msm8926_mmi_defconfig
+TARGET_KERNEL_CONFIG := msm8226_mmi_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10485760
